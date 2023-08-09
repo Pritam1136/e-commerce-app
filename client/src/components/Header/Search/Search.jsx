@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Search.scss";
 import { MdClose } from "react-icons/md";
-import prod from "../../../assets/products/earbuds-prod-5.webp";
 import useFetch from "../../../hooks/useFetch";
 const Search = ({ setShowSearch }) => {
   const [query, setQuery] = useState("");
